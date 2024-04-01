@@ -1,8 +1,9 @@
 # The Docker image that will be used to build your app
-image: node:lts
+image: node:18.20.0
 # Functions that should be executed before the build script is run
 before_script:
-  - npm install
+  - npm install -g pnpm
+  - pnpm install
 pages:
   script:
     - npm run build
