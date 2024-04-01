@@ -1,4 +1,4 @@
-name: Actions CICD Script
+name: Actions CICD Scripts
 on:
   push:
     branches: [main]
